@@ -3,7 +3,6 @@ import Lottie from  "lottie-react";
 import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
-import Avatar from '../images/Avatar.png';
 import {CiCoffeeCup} from "react-icons/ci";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
@@ -47,7 +46,7 @@ const Home = () => {
           </p>
         </div>
         <Tilt>
-          <img className='Avatar' src={Avatar} alt="" />
+          <img className='Avatar' src={'images/Avatar.png'} alt="" />
         </Tilt>
       </div>
     </div>
